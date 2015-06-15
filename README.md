@@ -6,7 +6,7 @@ No. It's still has hardcoded dependencies. But it's not far off.
 
 #Usage
 ```javascript
-<TypeaheadInput id="class" afterChange={this.handleChange} values={this.asyncValues("jobs/players/class.json")} value={this.state.player.class}
+<TypeaheadInput afterChange={this.handleChange} values={this.asyncValues("someEndPointOrJsonFile")} value={defaultValue}
 
 ```
 ##values
